@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5500/lyr.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=.0, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+    .img1
+{
+    position: absolute;
+    top:75px;
+    left:0px;
+    
+}
+    .container
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:10%;
+    width:100%;
+    background-color: whitesmoke;
+    opacity: 0.4;
+}
+    .img
+    {
+        position: absolute;
+        top:15px;
+        left:75px;
+    
+    }
+    ul{
+        display: none;
+    }
+    .tool
+    {
+        position: absolute;
+        top:15px;
+        left:47%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+.tool:hover ul{
+    display: block;
+    list-style:none;
+    height:20%;
+    width: 75%;
+    border-radius: 10px;
+   
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+background-color:gray
+
+}
+.tool1
+{
+    position: absolute;
+    top:15px;
+    left:57%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tool1:hover ul{
+    display: block;
+    list-style:none;
+    height:10%;
+    width: 75%;
+background-color:gray;
+border-radius: 10px;
+
+}
+.tool2
+    {
+        position: absolute;
+        top:15px;
+        left:67%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .tool2:hover ul{
+    display: block;
+    list-style:none;
+    height:10%;
+    width: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+background-color:gray
+}
+.tool3
+    {
+        position: absolute;
+        top:15px;
+        left:77%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .tool3:hover ul{
+    display: block;
+    list-style:none;
+    height:10%;
+    width: 63%;
+background-color:gray;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.tool4
+    {
+        position: absolute;
+        top:15px;
+        left:87%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .tool4:hover ul{
+    display: block;
+    list-style:none;
+    height:10%;
+    width: 63%;
+background-color:rgba(128, 128, 128, 0.545);
+}
+.tool5
+{
+    position: absolute;
+    top:15px;
+    left:40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tool6
+{
+    position:absolute;
+    top:15px;
+    left:35%;
+    font-size: x-large;
+    
+}
+.tool7{
+    position: absolute;
+    top:12px;
+    left:95%;
+}
+
+.iphone
+{
+position: absolute;
+top:110%;
+left:0px;
+}
+.iphone:hover{
+opacity: 0.3;
+}
+
+.samsung
+{
+    position: absolute;
+    top:110%;
+    left:10%;
+}
+.samsung:hover{
+opacity: 0.3;
+}
+.oneplus
+{
+    position: absolute;
+    top:110%;
+    left:20%;
+}
+.oneplus:hover{
+opacity: 0.3;
+}
+.google
+{
+    position: absolute;
+    top:110%;
+    left:30%;
+}
+.google:hover{
+opacity: 0.3;
+}
+.realme
+{
+    position: absolute;
+    top:110%;
+    left:40%;
+}
+.realme:hover{
+opacity: 0.3;
+}
+.xiaomi
+{
+    position: absolute;
+    top:110%;
+    left:50%;
+}
+.xiaomi:hover{
+opacity: 0.3;
+}
+.oppo
+{
+    position: absolute;
+    top:110%;
+    left:60%;
+}
+.oppo:hover{
+opacity: 0.3;
+}
+.asus
+{
+    position: absolute;
+    top:110%;
+    left:70%;
+}
+.asus:hover{
+opacity: 0.3;
+}
+.nothing
+{
+    position: absolute;
+    top:110%;
+    left:80%;
+}
+.nothing:hover{
+opacity: 0.3;
+}
+.poco
+{
+    position: absolute;
+    top:110%;
+    left:90%;
+}
+.poco:hover{
+opacity: 0.3;
+}
+.header
+{
+    position: absolute;
+    top: 107%;
+left:42%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bolder;
+font-size: 40px;
+word-spacing: 15px;
+}
+.header2
+{
+    position: absolute;
+    top: 132%;
+left:40%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight:bold;
+font-size: 40px;
+word-spacing: 10px;
+}
+.cover{
+    position: absolute;
+    top:140%;
+left:0px;
+padding-left: 20px;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+.cover:hover{
+   opacity: 0.7;
+    
+}
+.coverwrit
+{
+    position:absolute;
+    top:225%;
+    font-size: larger;
+    letter-spacing: 2px;
+   
+}
+.coverwrit:hover{
+    height:2px;
+    width:160px;
+    background-color: black;
+    transition: ease-in 1s, right;
+}
+
+.cover1{
+    position: absolute;
+    top:140%;
+left:25%;
+padding-left: 20px;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+.cover1:hover{
+   opacity: 0.7;
+    
+}
+.coverwrit1
+{
+    position:absolute;
+    top:225%;
+    left:25%;
+    font-size: larger;
+    letter-spacing: 2px;
+   
+}
+.coverwrit1:hover{
+    height:2px;
+    width:170px;
+    background-color: black;
+    transition: ease-in 1s, right;
+}
+
+
+.cover2{
+    position: absolute;
+    top:140%;
+left:50%;
+padding-left: 20px;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+.cover2:hover{
+   opacity: 0.7;
+    
+}
+.coverwrit2
+{
+    position:absolute;
+    top:225%;
+    left:50%;
+    font-size: larger;
+    letter-spacing: 2px;
+   
+}
+.coverwrit2:hover{
+    height:2px;
+    width:170px;
+    background-color: black;
+    transition: ease-in 1s, right;
+}
+
+.cover3{
+    position: absolute;
+    top:140%;
+left:75%;
+padding-left: 20px;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+.cover3:hover{
+   opacity: 0.7;
+    
+}
+.coverwrit3
+{
+    position:absolute;
+    top:225%;
+    left:75%;
+    font-size: larger;
+    letter-spacing: 2px;
+   
+}
+.coverwrit3:hover{
+    height:2px;
+    width:170px;
+    background-color: black;
+    transition: ease-in 1s, right;
+}
+.banner
+{
+    position: 
+    absolute;
+    top: 240%;
+}
+.header3
+{
+    position: absolute;
+    top:340%;
+left:33%;
+font-size: 40px;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+letter-spacing: 5px;
+}
+.cover5
+{
+    position: absolute;
+    top:350%;
+left:0%;
+padding-left: 20px;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+.cover5:hover{
+   opacity: 0.7;
+    
+}
+.coverwrit5
+{
+    position:absolute;
+    top:425%;
+    left:3%;
+    font-size: larger;
+    letter-spacing: 2px;
+   
+}
+.coverwrit5:hover{
+    height:2px;
+    width:170px;
+    background-color: black;
+    transition: ease-in 1s, right;
+} 
+
+.cover6
+{
+    position: absolute;
+    top:350%;
+left:25%;
+padding-left: 20px;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+.cover6:hover{
+   opacity: 0.7;
+    
+}
+.coverwrit6
+{
+    position:absolute;
+    top:425%;
+    left:25%;
+    font-size: larger;
+    letter-spacing: 2px;
+   
+}
+.coverwrit6:hover{
+    height:2px;
+    width:170px;
+    background-color: black;
+    transition: ease-in 1s, right;
+} 
+
+
+.cover8
+{
+    position: absolute;
+    top:350%;
+left:50%;
+padding-left: 20px;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+.cover8:hover{
+   opacity: 0.7;
+    
+}
+.coverwrit8
+{
+    position:absolute;
+    top:426%;
+    left:60%;
+    font-size: larger;
+    letter-spacing: 2px;
+   
+}
+.coverwrit8:hover{
+    height:2px;
+    width:110px;
+    background-color: black;
+    transition: ease-in 1s, right;
+} 
+
+.cover9
+{
+    position: absolute;
+    top:350%;
+left:
+75%;
+padding-left: 20px;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+.cover9:hover{
+   opacity: 0.7;
+    
+}
+.coverwrit9
+{
+    position:absolute;
+    top:426%;
+    left:75%;
+    font-size: larger;
+    letter-spacing: 2px;
+   
+}
+.coverwrit9:hover{
+    height:2px;
+    width:220px;
+    background-color: black;
+    transition: ease-in 1s, right;
+} 
+.banner1
+{
+    position: 
+    absolute;
+    top: 435%;
+}
+
+.header4
+{
+    position:absolute;
+    top:570%;
+    left:40%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+}
+.cover10
+{
+    position: absolute;
+    top:440%;
+    left:0px;
+
+}
+   </style>
+
+
+  
+</head>
+<body>
+    <div class="img1"><a href="https://www.layers.shop/collections/retro-funk"><img src="./Document_files/layerimg.webp" height="700px" width="1500px"></a></div>
+    <div class="container"></div>
+    <div class="img"><a href="https://www.layers.shop/"><img src="./Document_files/layer.png" height="50px" width="50px"></a>
+    </div>
+    <div class="tool"><a href="https://www.layers.shop/pages/select-your-brand">Mobile Skins</a><ul><li>iPhone</li><br><li>Samsung</li><br><li>one Plus</li><br><li>pixel</li><br><li>Nothing</li><br><li>Asus</li><br><li>xiaomi</li><br><li>poco</li><br><li>realme</li><br> <li>IQOO</li><br><li>OPPO</li><br><li>Vivo</li><br></ul></div>
+    <div class="tool1"><a href="https://www.layers.shop/?gclid=CjwKCAjws9ipBhB1EiwAccEi1KOYLnx3ZfGRBt1roF584bA4I9hxEI4wSd2EP_NhzyJ2IGRSNHUaXxoCOYsQAvD_BwE#">Laptop skins</a><ul><li>MacBook</li><br><li>Windows</li></ul></div>
+    <div class="tool2"><a href="https://www.layers.shop/?gclid=CjwKCAjws9ipBhB1EiwAccEi1KOYLnx3ZfGRBt1roF584bA4I9hxEI4wSd2EP_NhzyJ2IGRSNHUaXxoCOYsQAvD_BwE#"> Skin Collections</a><ul><li>Star Wars</li><br><li>Marvel</li><br><li>Dark</li><br><li>Cyberforce</li><br><li>woods</li><br><li>Retro Funk</li><br><li>Ripple</li><br><li>Wanderlust</li><br><li>Messed it</li><br> <li>Sky</li></ul></div>
+    <div class="tool3"><a href="https://www.layers.shop/products/find-your-mobile-device-here">Device Not Found?</a></div>
+    <div class="tool4"><a href="https://www.layers.shop/pages/how-to-apply">How to Apply</a></div>
+    <div class="tool5"><a href="https://www.layers.shop/account/login">Login.</a></div>
+    <div class="tool6"><a href="https://www.layers.shop/search">🔍</a></div>
+    <div class="tool7"><a href="https://www.layers.shop/cart"><img src="./Document_files/bag.png" height="50px" width="50px"></a></div>
+  
+    <div class="iphone"><a href="https://www.layers.shop/collections/apple"><img src="./Document_files/iphone.webp" height="200px" width="200px"></a></div>
+    <div class="samsung"><a href="https://www.layers.shop/collections/samsung"><img src="./Document_files/samsung.webp" height="200px" width="200px"></a></div>
+    <div class="oneplus"><a href="https://www.layers.shop/collections/oneplus"><img src="./Document_files/one plus.webp" height="200px" width="200px"></a></div>
+
+    <div class="google"><a href="https://www.layers.shop/collections/google"><img src="./Document_files/google.webp" height="200px" width="200px"></a></div>
+
+    <div class="realme"><a href="https://www.layers.shop/collections/realme"><img src="./Document_files/realme.webp" height="200px" width="200px"></a></div> 
+
+    <div class="xiaomi"><a href="https://www.layers.shop/collections/xiaomi"><img src="./Document_files/xiaomi.webp" height="200px" width="200px"></a></div> 
+
+    <div class="oppo"><a href="https://www.layers.shop/collections/oppo"><img src="./Document_files/oppo.webp" height="200px" width="200px"></a></div> 
+
+    <div class="asus"><a href="https://www.layers.shop/collections/asus"><img src="./Document_files/asus.webp" height="200px" width="200px"></a></div> 
+
+    <div class="nothing"><a href="https://www.layers.shop/collections/nothing"><img src="./Document_files/nothing.webp" height="200px" width="200px"></a></div> 
+
+    <div class="poco"><a href="https://www.layers.shop/collections/poco"><img src="./Document_files/poco.webp" height="200px" width="200px"></a></div>
+    
+    <div class="header">Select Your Brand</div>
+    <div class="header2">Layers Orignal Desgins</div>
+    <div class="cover"><a href="https://www.layers.shop/collections/black-crack"><img src="./Document_files/cover.jpg" height="600px" width="300px"></a> </div>
+
+    <div class="coverwrit">BlackCrack₹599</div>
+
+<div class="cover1"><a href="https://www.layers.shop/collections/astro-rainbow"><img src="./Document_files/cover1.jpg" height="600px" width="300px"></a> </div>
+
+    <div class="coverwrit1">AstroRainbow₹599</div>
+    
+    <div class="cover2"><a href="https://www.layers.shop/collections/concrete-rock"><img src="./Document_files/cover2.jpg" height="600px" width="300px"></a> </div>
+
+    <div class="coverwrit2">ConcreteRock₹599</div>
+    
+    <div class="cover3"><a href="https://www.layers.shop/collections/concrete-rock"><img src="./Document_files/cover3.jpg" height="600px" width="300px"></a> </div>
+
+    <div class="coverwrit3">ConcreteRock₹599</div>
+
+    <div class="banner"><a href="https://www.layers.shop/collections/marvel"><img src="./Document_files/banner.webp" height="700px" width="1500px"></a></div>
+        <div class="header3">Best Selling Mobile Skins</div>
+
+        <div class="cover5"><a href="https://www.layers.shop/collections/deadpool"><img src="./Document_files/cover5.jpg" height="550px" width="300px"></a></div>
+    <div class="coverwrit5">SpaceBlueprint₹599</div>
+
+    <div class="cover6"><a href="https://www.layers.shop/collections/blazing-inferno"><img src="./Document_files/cover6.jpg" height="550px" width="300px"></a></div>
+    <div class="coverwrit6">Blazzinginfero₹599</div>
+
+    <div class="cover8"><a href="https://www.layers.shop/collections/90s-kid"><img src="./Document_files/cover8.jpg" height="550px" width="300px"></a></div>
+    <div class="coverwrit8">90'skid₹599</div>
+
+    <div class="cover9"><a href="https://www.layers.shop/collections/moon-knight-rising"><img src="./Document_files/cover9.jpg" height="550px" width="300px"></a></div>
+    <div class="coverwrit9">MoonLightRising₹599</div>
+
+
+<div class="banner1" |=""><a href="https://www.layers.shop/collections/messed-it"><img src="./Document_files/banner1.webp" heightt="700px" widtth="1500px"></a></div>
+
+<div class="header4">Best Selling Laptop Skins</div>
+
+<div class="cover10"><img src="./Document_files/cover10.jpg" height="200px" width="300px" <="" div="">
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body></html>
